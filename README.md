@@ -16,13 +16,13 @@
 
 ## Examples
 
-https://naktar-ai-task.herokuapp.com
+Fetch all Logs: https://naktar-ai-task.herokuapp.com
 
-https://naktar-ai-task.herokuapp.com?startTime=2020-01-01T00:02:43.327Z&endTime=2020-01-01T00:30:17.713Z
+Fetch within a given valid time frame: https://naktar-ai-task.herokuapp.com?startTime=2020-01-01T00:02:43.327Z&endTime=2020-01-01T00:30:17.713Z
 
-https://naktar-ai-task.herokuapp.com?startTime=2020-01-01T00:30:17.713Z&endTime=2020-01-01T00:02:43.327Z (Bad request Error)
+Fetch within a given invalid time frame:https://naktar-ai-task.herokuapp.com?startTime=2020-01-01T00:30:17.713Z&endTime=2020-01-01T00:02:43.327Z (Bad request Error)
 
-https://naktar-ai-task.herokuapp.com?keyword=35.18.253.99
+Fetch with search keyword: https://naktar-ai-task.herokuapp.com?keyword=35.18.253.99
 
 ## Working
 
